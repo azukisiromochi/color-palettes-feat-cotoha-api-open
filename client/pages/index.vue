@@ -72,7 +72,7 @@
               target="_blank"
               rel="noopener"
               aria-label="GitHub"
-              href="https://github.com/azukisiromochi/color-palettes-feat-cotoha-api"
+              href="https://github.com/azukisiromochi/color-palettes-feat-cotoha-api-open"
             >
               <fa :icon="faGithub" />
             </a>
