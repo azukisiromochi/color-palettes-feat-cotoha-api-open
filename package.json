@@ -1,0 +1,45 @@
+{
+  "name": "color-palettes-feat-cotoha-api",
+  "version": "1.0.0",
+  "description": "My lovely Nuxt.js project",
+  "author": "azukisiromochi",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "deploy": "git subtree push --prefix dist/ origin gh-pages"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/bulma": "^1.2.1",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "bulma-toast": "^1.5.4",
+    "bulma-tooltip": "^3.0.2",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-webfontloader": "^1.1.0",
+    "puppeteer": "^2.1.1",
+    "sass-loader": "^8.0.2",
+    "vue-scrollto": "^2.17.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.19.1"
+  }
+}
